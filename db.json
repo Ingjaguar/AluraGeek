@@ -1,0 +1,52 @@
+{
+    "videos": [
+        {
+            "id": "1",
+            "titulo": "TOYOTA Modelo 80",
+            "precio": "300 Millones",
+            "imagen": "https://images.pexels.com/photos/5080862/pexels-photo-5080862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+            "id": "2",
+            "titulo": "LAND ROVER Modelo 2020",
+            "precio": "400 Millones",
+            "imagen": "https://images.pexels.com/photos/11558251/pexels-photo-11558251.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+        },
+        {
+            "id": "3",
+            "titulo": "JEEP Modelo 90",
+            "precio": "120 Millones",
+            "imagen": "https://images.pexels.com/photos/9155308/pexels-photo-9155308.jpeg?auto=compress&cs=tinysrgb&w=800"
+        },
+        {
+            "id": "4",
+            "titulo": "AlPINE Modelo 96",
+            "precio": "150 Millones",
+            "imagen": "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+            "id": "5",
+            "titulo": "BMW Modelo 2010",
+            "precio": "90 Millones",
+            "imagen": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+            "id": "6",
+            "titulo": "MERCEDES BENZ Modelo 2021",
+            "precio": "200 Millones",
+            "imagen": "https://images.pexels.com/photos/10358234/pexels-photo-10358234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+            "id": "7",
+            "titulo": "MERCEDEZ BENZ Modelo 2022",
+            "precio": "600 Millones",
+            "imagen": "https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+            "id": "8",
+            "titulo": "MERCEDEZ BENZ Modelo 2023",
+            "precio": "350 Millones",
+            "imagen": "https://images.pexels.com/photos/8673535/pexels-photo-8673535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+    ]
+}

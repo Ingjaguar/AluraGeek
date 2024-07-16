@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header class="navbar bg-neutral-300 flex justify-center">
+        <p class="text-2xl md:text-4xl mx-8">The Best Classics Cars</p>
+        <!-- <div class="form-control inline">
+            <input type="text" placeholder="Buscar..." class="input input-bordered w-36"/>
+            <button class="btn btn-neutral text-xl">Buscar</button>
+        </div>         -->
+    </header>
+    <!--MAIN-->
+    <main class="grid grid-cols-1 md:grid-cols-4 justify-center">
+        <!--FORMULARIO-->
+        <section class="col-span-1">
+            <div class=""> <!-- col-span-1 border border-4 border-neutral rounded content-center -->
+                <p class="flex text-2xl justify-center my-6">Agregar Producto</p>
+                <form class="" data-formulario>
+                    <fieldset class="mx-4">
+                        <span class="mensaje-error flex justify-center italic text-red-600"></span>
+                        <input 
+                            id="nombre"
+                            name="Nombre"
+                            type="text" 
+                            class="input input-bordered w-full mb-4 bg-[#e5e7eb] shadow-lg"
+                            placeholder="Nombre"
+                            data-nombre
+                            required 
+                        />                        
+                    </fieldset>
+                    <fieldset class="mx-4">
+                        <span class="mensaje-error flex justify-center italic text-red-600"></span>
+                        <input 
+                            id="precio"
+                            name="Precio"
+                            type="text" 
+                            class="input input-bordered w-full mb-4 bg-[#e5e7eb] shadow-lg" 
+                            placeholder="Precio"
+                            data-precio 
+                            required 
+                        />                        
+                    </fieldset>
+                    <fieldset class="mx-4">
+                        <span class="mensaje-error flex justify-center italic text-red-600"></span>
+                        <input 
+                            id="imagen"
+                            name="Imagen"
+                            type="text" 
+                            class="input input-bordered w-full mb-4 bg-[#e5e7eb] shadow-lg" 
+                            placeholder="Imagen"
+                            data-imagen 
+                            required 
+                        />                        
+                    </fieldset>
+                        <button type="submit" class="btn btn-neutral" data-boton-enviar>Enviar</button>
+                        <button type="reset" class="btn btn-active">Limpiar</button>                    
+                </form>
+            </div>
+        </section>        
+        <!--CARD-->
+        <section class="col-span-3">
+            <ul class="flex flex-wrap gap-2" data-card>
+                <!--CARDS-->
+            </ul>
+        </section>
+    </main>
+    <footer class="border-2 border-black">
+        <h1 class=""> All Rigths Reserved</h1>
+    </footer>   
+    <script type="module" src="./js/validarCampos.js"></script>
+    <script type="module" src="./js/mostrarProductos.js" ></script>
+    <script type="module" src="./js/agregarProducto.js"></script>
+    <!-- <script type="module" src="./js/eliminarProducto.js"></script> -->
+</body>
+</html>
